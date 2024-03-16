@@ -78,8 +78,8 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 -vendor/lib64/libkeymaster_helper.so
 -vendor/lib64/libskeymaster4device.so
 
-## RIL
--vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9611
+## RIL - from a54x - A546BXXU5BWK4
+-vendor/lib/libsecril-client.so;MODULE=libsecril-client.exynos9611|fd7cb317ad17fd6c5b94c69bc4eaef80631215f1
 
 ## SECNATIVE
 -vendor/lib/libsecnativefeature.so
